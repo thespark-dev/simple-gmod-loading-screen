@@ -1,13 +1,14 @@
 body
 {
-	background-color: #E5E5E5;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 p, a, h1, h2, h3, h4, h5, h6
 {
 	-webkit-font-smoothing: antialiased;
 	font-weight: 300;
+	color: white;
+	font-weight: 500;
 }
 
 #container
@@ -61,4 +62,58 @@ p, a, h1, h2, h3, h4, h5, h6
 	{
 		-webkit-transform: perspective(600px) rotateY(720deg);
 	}
+}
+
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(130deg, #000046, #1CB5E0);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 8s ease infinite;
+-z-animation: rainbow 8s ease infinite;
+-o-animation: rainbow 8s ease infinite;
+  animation: rainbow 8s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.ftr {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #EEE;
+	border-top: 1px solid #BBB;
+	color: black;
+	text-align: center;
+}
+
+.ftr p {
+	margin: 2px;
+	padding: 2px;
+	color: black;
 }

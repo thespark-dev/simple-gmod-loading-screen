@@ -1,11 +1,11 @@
-# Photoshop files
-*.psd
+# paint.net
+*.pdn
 
 # 3rd party libraries
-js/thirdparty
+# js/thirdparty
 
-# Ignore dev script 
-start.bat
+# Ignore devs scripts
+*.bat
 
 # Sublime Text files
 *.sublime-project

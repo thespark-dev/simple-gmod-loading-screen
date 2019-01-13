@@ -1,26 +1,36 @@
 <html>
 	<head>
-		<title>Loading..</title>
-		<link href="//fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+		<title>Loading...</title>
+
+		<!-- Main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="loading.css" />
+
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	</head>
 	<body>
-		<div id="container">
+		<div id="container" class="wrapper">
 
 			<div id="loadImgBg">
-				<img id="loadImg" src="img/gmod-logo.png" class="spinner">
+				<img id="loadImg" src="img/gmod-logo.png" class="animated infinite bounce">
 			</div>
 			
 			<div id="textContainer">
-				<h1 id="phrases">hello.</h1>
+				<h1 id="phrases">welcome to snow's server</h1>
 				<h3 id="percentCompleted"></h3>
 			</div>
 
 		</div>
 
-		<!-- Load libraries -->
-		<!-- jQuery v2.1.0 -->
-		<script type="text/javascript" src="js/thirdparty/jquery.js"></script>
+		<div class="ftr">
+			<p>Music: Change Your Sound Settings for Your Lovely Ears - nosquist</p>
+		</div>
+
+		<audio autoplay loop src="https://cdn.discordapp.com/attachments/466382026694590468/533994094469578752/Change_Your_Sound_Settings_for_Your_Lovely_Ears.mp3" type="audio/mpeg">
+		</audio>
+
+		<!-- jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 		<!-- Load scripts -->
 		<script type="text/javascript" src="js/phrases.js"></script>

@@ -1,7 +1,7 @@
 /* global $ */
 
 var switchTime = 4 * 1000
-var phaseDuration = 0.5 * 1000
+var phaseDuration = 1.5 * 1000
 var findThreshold = 10
 
 var usedPhrases = []
