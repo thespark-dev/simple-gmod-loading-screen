@@ -82,7 +82,7 @@ body
   top: 0;
   bottom: 0;
   position: absolute;
-background: linear-gradient(130deg, #000046, #1CB5E0);
+background: linear-gradient(130deg, #FFF3C9, #FFA767, #6A2564);
 background-size: 1800% 1800%;
 
 -webkit-animation: rainbow 8s ease infinite;
