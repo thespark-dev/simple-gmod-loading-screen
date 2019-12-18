@@ -18,7 +18,7 @@ $(document).ready(function () {
 })
 
 function setupPhrasesArray () {
-  $.getJSON('phrases.json', function (json) {
+  $.getJSON('https://rawcdn.githack.com/thespark-dev/simple-gmod-loading-screen/d1753cd843a852a860b47b76101da891635d03d7/phrases.json', function (json) {
     for (var key in json) {
       if (json.hasOwnProperty(key)) {
         var item = json[key]
